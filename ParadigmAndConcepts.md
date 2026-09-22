@@ -1,0 +1,6 @@
+| Paradigm                                      | Key Concepts Expected                                                                                                                                        |
+| ---------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **OOP + functional/concurrency techniques**   | Encapsulation, controlled state, domain modeling, immutability, atomic operations, concurrency control, transaction boundaries, separation of business rules |
+| **Event-driven / reactive + asynchronous**    | Events, message passing, loose coupling, asynchronous processing, event handlers, concurrency, failure isolation, retries, backpressure, scalability         |
+| **Declarative + state reconciliation**        | Desired state, declarative configuration, idempotency, current vs desired state, diff/reconciliation, dependency graph, execution plan, drift detection      |
+| **Aspect-Oriented Programming (AOP)**         | Cross-cutting concerns, aspects, join points, pointcuts, advice, interception, separation of concerns, reduced duplication                                   |
