@@ -43,9 +43,10 @@ Pointcuts
 Advice
 Interception
 Separation of business logic from infrastructure concerns
-5. Frequently Changing Business Rules
 
-## A pricing system contains hundreds of business rules. New rules are introduced frequently, existing rules change regularly, and different customers may be subject to different combinations of rules.
+## Frequently Changing Business Rules
+
+A pricing system contains hundreds of business rules. New rules are introduced frequently, existing rules change regularly, and different customers may be subject to different combinations of rules.
 
 ### Question:
 How would you design the program so that business rules can evolve without requiring significant changes to the core application?
