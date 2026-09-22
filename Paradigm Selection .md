@@ -1,25 +1,25 @@
-Banking Transaction System
+## Banking Transaction System
 
 A banking application manages accounts, balances, deposits, withdrawals, and fund transfers. Multiple transactions can happen simultaneously, and incorrect handling of shared state could result in financial inconsistencies.
 
-Question:
+### Question:
 How would you structure the program to manage state, business rules, and concurrent operations safely?
 
-2. Real-Time Event Processing
+## Real-Time Event Processing
 
 A system receives thousands of events per second from different sources. Each event may trigger multiple independent actions. The system must continue processing new events even when one action fails or takes longer than expected.
 
-Question:
+### Question:
 How would you structure the application to process these events efficiently and independently?
 
-3. Infrastructure as Code
+## Infrastructure as Code
 
 An organization manages hundreds of servers, databases, networks, and cloud resources. Engineers define the desired infrastructure configuration in source-controlled files. The system determines what needs to be created, modified, or removed to reach the desired state.
 
-Question:
+### Question:
 How would you design the programming model for this system? What should the user's configuration describe, and how should the system translate that description into actual infrastructure changes?
 
-4. Cross-Cutting Concerns
+## Cross-Cutting Concerns
 
 A large application contains hundreds of business operations. The organization now requires the following behavior across many operations:
 
@@ -31,10 +31,8 @@ Handle specific exceptions consistently
 
 Adding this code manually to every method has resulted in duplicated code and inconsistent implementation.
 
-Question:
+### Question:
 How would you design the application so that these concerns can be applied consistently across relevant operations without embedding the same logic into every business method?
-
-Expected direction: Aspect-Oriented Programming (AOP)
 
 Look for concepts such as:
 
@@ -47,7 +45,7 @@ Interception
 Separation of business logic from infrastructure concerns
 5. Frequently Changing Business Rules
 
-A pricing system contains hundreds of business rules. New rules are introduced frequently, existing rules change regularly, and different customers may be subject to different combinations of rules.
+## A pricing system contains hundreds of business rules. New rules are introduced frequently, existing rules change regularly, and different customers may be subject to different combinations of rules.
 
-Question:
+### Question:
 How would you design the program so that business rules can evolve without requiring significant changes to the core application?
