@@ -1,4 +1,4 @@
-| #     | Programming Paradigm                           | Key Concepts Expected                                                                                                                                        |
+| #     | Programming Paradigm                           | Key Concepts                                                                                                                                        |
 | ----- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **1** | **OOP + functional/concurrency techniques**   | Encapsulation, controlled state, domain modeling, immutability, atomic operations, concurrency control, transaction boundaries, separation of business rules |
 | **2** | **Event-driven / reactive + asynchronous**    | Events, message passing, loose coupling, asynchronous processing, event handlers, concurrency, failure isolation, retries, backpressure, scalability         |
