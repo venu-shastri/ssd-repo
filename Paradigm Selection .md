@@ -50,3 +50,14 @@ A pricing system contains hundreds of business rules. New rules are introduced f
 
 ### Question:
 How would you design the program so that business rules can evolve without requiring significant changes to the core application?
+
+## Large Data Processing
+
+A system needs to process 10 million independent records. Each record goes through several steps:
+
+Read → Validate → Transform → Filter → Calculate → Store
+
+The processing of one record does not depend on another record.
+
+### Question:
+How would you structure the processing flow to make it reusable, testable, and capable of taking advantage of parallel execution?
