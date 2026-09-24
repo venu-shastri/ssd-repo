@@ -7,6 +7,7 @@
 - DRY
 - KISS
 - YAGNI
+- SOLID
 
 ## Cognitive Biases
 - Buzzword : Other's are using , we should consider it too
